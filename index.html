@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Smart Card</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="design.css">
+		<script src="./particles/src/particles.js"></script>
+
+
+	</head>
+	<script>
+		window.onload = function() {
+var particles = Particles.init({
+	selector: '.background',
+  color: ['#DA0463', '#404B69'],
+  connectParticles: true,
+  responsive: [{
+  	breakpoint: 800,
+    options: {
+    	color: '#00C9B1',
+    	maxParticles: 80,
+      connectParticles: false
+    }
+  }]
+});
+		};
+		
+
+		
+	</script>
+	<body>
+
+		
+		<div class="container">
+			<p class="name">Jayed Rafi</p>
+			<p class="title">Software Engineer</p>
+			<hr>
+
+		<div class="information">
+						<button class="btn">LinkedIn</button>
+			<button class="btn">GitHub</button>
+			<button class="btn">Portfolio</button>
+			<p><a href="mailto:jayedrafi@outlook.com">jayedrafi@outlook.com</a></p>
+			<p>Winnipeg, MB. Canada</p>
+			</div>
+
+		</div>
+
+<canvas class="background"></canvas>
+		
+	</body>
+
+</html>
